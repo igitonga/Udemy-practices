@@ -140,28 +140,6 @@ const dummyMeals = [
     creator: 'Franz Huber',
     creator_email: 'franzhuber@example.com',
   },
-  {
-    title: 'Fresh Tomato Salad',
-    slug: 'fresh-tomato-salad',
-    image: '/images/tomato-salad.jpg',
-    summary:
-      'A light and refreshing salad with ripe tomatoes, fresh basil, and a tangy vinaigrette.',
-    instructions: `
-      1. Prepare the tomatoes:
-        Slice fresh tomatoes and arrange them on a plate.
-    
-      2. Add herbs and seasoning:
-         Sprinkle chopped basil, salt, and pepper over the tomatoes.
-    
-      3. Dress the salad:
-         Drizzle with olive oil and balsamic vinegar.
-    
-      4. Serve:
-         Enjoy this simple, flavorful salad as a side dish or light meal.
-    `,
-    creator: 'Sophia Green',
-    creator_email: 'sophiagreen@example.com',
-  },
 ];
 
 db.prepare(`

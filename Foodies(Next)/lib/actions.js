@@ -13,4 +13,5 @@ export async function submitSharedMeal(formData){
     }
 
     await saveMeal(meal);
+    redirect('/meals');
 }
